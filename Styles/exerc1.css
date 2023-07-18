@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 108px;
+  gap: 24px
+}
+
+.container_titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 768px;
+}
+
+.container_titulo h1 {
+  margin: 4px 0px 8px 0px;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.nota {
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.nota p {
+  color: #333;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  backdrop-filter: blur(23.507234573364258px);
+  display: flex;
+  padding: 9.403px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.403px;
+  border-radius: 9.403px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #5F6E84;
+}
+
+.nota ul {
+  color: #5F6E84;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.nota .nota_topico {
+  list-style: inside;
+  color: #5F6E84;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.ntf {
+  color: #9245F3;
+}
