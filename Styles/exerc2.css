@@ -138,6 +138,7 @@ input[type="radio"] {
   background-color: white;
   border: 2px solid #9245F3;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 input[type="radio"]:checked {
