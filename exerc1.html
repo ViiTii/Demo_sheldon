@@ -46,34 +46,80 @@
         </ul>
       </section>
 
-      <section class="questionario">
+      <div class="questionario">
+        <form class="form1" id="form1">
 
-        
-        <form class="questao1">
-          
-          <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere?</p>
+          <div class="questao1">
+            <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao1" value="opcao1" checked>
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao2" value="opcao2">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao3" value="opcao3">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao4" value="opcao4">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
 
-          <input type="radio" id="opcao1" name="questao1" value="Lorem ipsum dolor sit amet.">
-          <label for="opcao1">Lorem ipsum dolor sit amet.</label><br>
-          
-          <input type="radio" id="opcao2" name="questao1" value="Lorem ipsum dolor sit amet.">
-          <label for="opcao2">Lorem ipsum dolor sit amet.</label><br>
-          
-          <input type="radio" id="opcao3" name="questao1" value="Lorem ipsum dolor sit amet.">
-          <label for="opcao3">Lorem ipsum dolor sit amet.</label><br>
-          
-          <input type="radio" id="opcao4" name="questao1" value="Lorem ipsum dolor sit amet.">
-          <label for="opcao4">Lorem ipsum dolor sit amet.</label>
-        
+          <div class="questao2">
+            <p>2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa1" checked>
+              <label for="caixa1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa2">
+              <label for="caixa2">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa3" checked>
+              <label for="caixa3">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa4">
+              <label for="caixa4">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
+
+          <div class="questao3">
+            <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="escreva aqui..."></textarea>
+          </div>
+          <div class="questao4">
+            <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="a" checked>
+              <label for="a">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="b">
+              <label for="b">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="c">
+              <label for="c">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="d">
+              <label for="d">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
         </form>
-
-
-      </section>
-
+        <div class="checar_respostas-contaier">
+          <button type="submit" from="form1" value="submit" class="checar_respostas">Checar respostas</button>
+        </div>
+      </div>
     </div>
-
   </main>
-
 </body>
 
 </html>

@@ -234,4 +234,16 @@ input[type=checkbox]:checked:after {
   display: flex;
   width: 100%;
   justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.checar_respostas-contaier p {
+  color: #7C8DB0;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }

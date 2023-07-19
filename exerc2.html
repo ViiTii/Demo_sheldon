@@ -7,6 +7,7 @@
   <title>Atividade com nota</title>
   <link rel="icon" href="./imagens/border_color.png">
   <link rel="stylesheet" href="./Styles/format.css">
+  <link rel="stylesheet" href="./Styles/exerc2.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -23,6 +24,103 @@
       <li><a href="./exerc2.html"><span class=" x material-symbols-outlined">chevron_right</span></a></li>
     </ul>
   </header>
+
+  <main class="container">
+
+    <div class="conteudo">
+
+      <section class="container_titulo">
+        <img src="./imagens/exerc1_icon.svg" alt="">
+        <h1>Equipamentos e procedimentos</h1>
+        <img src="./imagens/total 4 pontos.svg" alt="">
+      </section>
+
+      <section class="nota">
+        <p>
+          Sua nota aparecerá aqui
+        </p>
+        <ul>Lembre-se:
+          <li class="nota_topico">Este questionário <span class="ntf">vale nota</span>.</li>
+          <li class="nota_topico">Tire pelo menos  <span class="ntf">70%</span> para passar.</li>
+          <li class="nota_topico"> Caso não passe, você poderá tentar novamente em <span class="ntf">24 horas.</span></li>
+        </ul>
+      </section>
+
+      <div class="questionario">
+        <form class="form1" id="form1">
+
+          <div class="questao1">
+            <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao1" value="opcao1" checked>
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao2" value="opcao2">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao3" value="opcao3">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao1" id="opcao4" value="opcao4">
+              <label for="opcao1">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
+
+          <div class="questao2">
+            <p>2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa1" checked>
+              <label for="caixa1">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa2">
+              <label for="caixa2">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa3" checked>
+              <label for="caixa3">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="checkbox" name="opcoes" id="caixa4">
+              <label for="caixa4">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
+
+          <div class="questao3">
+            <p>3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="escreva aqui..."></textarea>
+          </div>
+          <div class="questao4">
+            <p>4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia varius posuere? <span class="one_point">1 ponto</span></p>
+
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="a" checked>
+              <label for="a">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="b">
+              <label for="b">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="c">
+              <label for="c">Lorem ipsum dolor sit amet.</label>
+            </div>
+            <div class="opcoes">
+              <input type="radio" name="questao4" id="d">
+              <label for="d">Lorem ipsum dolor sit amet.</label>
+            </div>
+          </div>
+        </form>
+        <div class="checar_respostas-contaier">
+          <p>Atenção: esta avaliação vale nota para seu certificado.</p>
+          <button type="submit" from="form1" value="submit" class="checar_respostas">Checar respostas</button>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
